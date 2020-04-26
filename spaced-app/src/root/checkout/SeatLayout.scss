@@ -1,0 +1,44 @@
+.seat-layout {
+  display: inline-block;
+  padding: 12px;
+  padding-top: 75px;
+  border-right: solid 4px #ffffff54;
+  border-left: solid 4px #ffffff54;
+}
+
+.seat-layout .seat-placeholder {
+  width: 42px;
+  height: 48px;
+  display: inline-block;
+  margin: 12px;
+  border: solid 1px #feb17c;
+  background-color: #feb17c19;
+  border-radius: 6px;
+  vertical-align: top;
+}
+
+.seat-layout .seat-placeholder.booked {
+  background-color: #ffffff19;
+  border: none;
+  padding: 10px;
+}
+
+.seat-layout .seat-placeholder.available {
+  cursor: pointer;
+}
+
+.seat-layout .seat-placeholder.selected {
+  background-color: #e23e56;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.seat-layout .row-num {
+  display: inline-block;
+  line-height: 48px;
+  vertical-align: top;
+  margin: 12px;
+  font-size: 20px;
+  width: 20px;
+}

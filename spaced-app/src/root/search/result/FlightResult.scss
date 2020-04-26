@@ -1,0 +1,120 @@
+.result-date-container {
+  padding: 24px 0px;
+}
+.search-result-container .table {
+  color: white;
+  opacity: 0.9;
+}
+
+.search-result-container .table tbody tr {
+  border: none;
+}
+.search-result-container .table tbody th,
+.search-result-container .table thead th,
+.search-result-container .table tbody td {
+  border: none;
+}
+
+.search-result-container .table tbody tr:hover {
+  border-radius: 6px;
+  background-color: #ffffff19;
+}
+
+.search-result-container .info-wrap {
+  justify-content: space-between;
+}
+
+.search-result-container .time {
+  width: 117px;
+  height: 28px;
+  font-family: GothamPro;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+.search-result-container .place {
+  color: #feb17c;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+.search-result-container .place-code {
+  background-color: #feb17c;
+}
+
+.search-result-container .duration-wrap {
+  text-align: center;
+}
+
+.search-result-container .duration {
+  width: 54px;
+  height: 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+}
+
+.search-result-container .point-to-point {
+  color: #feb17c;
+}
+
+.search-result-container .point {
+  height: 15px;
+  width: 15px;
+  border: solid 2px #feb17c;
+  display: inline-block;
+  border-radius: 8px;
+  position: relative;
+  line-height: 3px;
+  margin: 0 2px;
+}
+
+.search-result-container .point::before {
+  content: '.';
+}
+
+.search-result-container .table .price {
+  opacity: 0.8;
+  border-radius: 6px;
+  border: solid 1px #e23e56;
+  width: 72px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: rgba(236, 73, 90, 0.1);
+  display: inline-block;
+  margin-right: 9px;
+  cursor: pointer;
+  line-height: 25px;
+}
+
+.search-result-container .table .price:hover {
+  background-color: #e23e56;
+  opacity: unset;
+}
+
+.search-result-container .table .price.sold-out {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #96949d;
+  background-color: #ffffff19;
+  border: none;
+}
+
+.search-result-container .table .seat-left {
+  padding: 15px 0;
+  display: inline-block;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.43;
+}

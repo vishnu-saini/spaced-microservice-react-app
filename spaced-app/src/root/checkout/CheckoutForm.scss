@@ -1,0 +1,69 @@
+.checkout-form {
+  margin: 48px;
+  width: 35%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.checkout-form .section {
+  margin: 30px 0px;
+}
+
+.checkout-form .flex-container {
+  justify-content: space-between;
+  margin: 12px 0;
+}
+
+.checkout-form .selected-seat {
+  display: inline-block;
+  width: 136px;
+  height: 112px;
+  object-fit: contain;
+  margin: 8px;
+  vertical-align: top;
+}
+
+.checkout-form .selected-seat .seat-img {
+  position: absolute;
+}
+
+.checkout-form .selected-seat .seat-number {
+  font-size: 46px;
+  line-height: 1.22;
+  letter-spacing: -0.63px;
+  text-align: center;
+}
+
+.checkout-form .radio {
+  margin: 12px 0;
+}
+
+.checkout-form .mood-radio {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.checkout-form .total-price {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: -0.3px;
+}
+
+.checkout-form .pay-now {
+  width: 240px;
+  height: 56px;
+  border-radius: 6px;
+  box-shadow: 0 10px 10px 0 #e23e5633;
+  background-color: #ec495a;
+  border: none;
+  color: white;
+}
+
+.checkout-form .pay-now:hover {
+  opacity: 0.9;
+}

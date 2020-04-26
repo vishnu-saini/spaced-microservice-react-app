@@ -1,0 +1,18 @@
+.checkout-shuttle {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  padding: 40px;
+}
+
+.checkout-shuttle .highlight {
+  position: absolute;
+  height: 146px;
+  width: 73px;
+  border-radius: 6px;
+  opacity: 0.8;
+  border: solid 1px #e23e56;
+  background-color: rgba(236, 73, 90, 0.1);
+  top: 395px;
+  left: 80px;
+}

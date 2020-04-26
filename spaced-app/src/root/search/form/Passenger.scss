@@ -1,0 +1,81 @@
+.passenger-container {
+  padding: 24px;
+}
+
+.passenger-container .flex-itm {
+  margin: 12px;
+  cursor: pointer;
+}
+
+.passenger-container .flex-itm.active {
+  border-bottom: solid 3px #ec495a;
+}
+
+.number-input {
+  width: 180px;
+  text-align: center;
+  border-radius: 6px;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+.number-input-value {
+  font-size: 46px;
+  line-height: 1.22;
+  letter-spacing: -0.63px;
+  text-align: center;
+  margin: 0 10px;
+  width: 50px;
+  display: inline-block;
+}
+
+.number-input-handle {
+  top: -10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.seat-count-container .flex-itm {
+  margin-right: 24px;
+}
+
+.shuttle-img-wrapper {
+  margin-top: 50px;
+  position: relative;
+}
+
+.first-count {
+  position: absolute;
+  top: 50px;
+  left: 226px;
+  width: 55px;
+  padding: 0 5px;
+}
+
+.business-count {
+  position: absolute;
+  top: 50px;
+  left: 280px;
+  width: 77px;
+  padding: 0 5px;
+}
+
+.economy-count {
+  position: absolute;
+  top: 50px;
+  left: 356px;
+  width: 145px;
+  padding: 0 5px;
+}
+
+.shuttle-img-wrapper .active {
+  border-radius: 6px;
+  opacity: 0.8;
+  border: solid 1px #e23e56;
+  background-color: rgba(236, 73, 90, 0.1);
+}
+
+.available-count {
+  font-size: 50px;
+  line-height: 1.03;
+  letter-spacing: -2.03px;
+}

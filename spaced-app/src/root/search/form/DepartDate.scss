@@ -1,0 +1,89 @@
+.depart-date-container {
+  padding: 12px;
+}
+
+.depart-date-container .flex-itm {
+  margin: 12px;
+  cursor: pointer;
+}
+
+.depart-date-container .flex-itm.active {
+  border-bottom: solid 3px #ec495a;
+}
+
+.date-box-container {
+  text-align: center;
+}
+
+.date-box-container .date-box {
+  height: 112px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.1) 59%,
+    #ffffff00 59%
+  );
+}
+
+.date-box-container:hover .date-box,
+.date-box-container.selected .date-box {
+  color: white;
+  border: none;
+  background-color: #ec495a;
+  background-image: none;
+}
+
+.date-box-container.sold-out:hover .date-box {
+  cursor: unset;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.1) 59%,
+    #ffffff00 59%
+  );
+}
+
+.date-box-container .date {
+  font-size: 46px;
+  line-height: 1.22;
+  letter-spacing: -0.63px;
+  color: white;
+}
+
+.date-box-container .day {
+  color: #96949d;
+}
+
+.date-box-container .price {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #feb17c;
+}
+
+.date-box-container:hover .price,
+.date-box-container.selected .price {
+  color: white;
+}
+
+.date-box-container.sold-out .price {
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #96949d;
+}
+
+.date-box-container.sold-out:hover .price {
+  color: #96949d;
+}
+
+.date-box-container:hover .day,
+.date-box-container.selected .day {
+  color: #ec495a;
+}
+
+.date-box-container.sold-out .day {
+  color: white;
+}

@@ -1,0 +1,49 @@
+.search-form {
+  margin: 32px 0 4px 0;
+  opacity: 0.9;
+  border-radius: 6px;
+  background-color: #312d3f;
+  overflow: hidden;
+}
+
+.form-itm-wrapper {
+  border-right: solid 1px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.form-itm {
+  display: inline-block;
+}
+
+.search-form-title {
+  color: #96949d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.drop-down {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.search-button {
+  background-color: #ec495a;
+  padding: 40px 0px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.search-button.disabled {
+  opacity: 0.3;
+  cursor: initial;
+}
+
+.search-form .no-border {
+  border: none;
+}

@@ -1,0 +1,479 @@
+{
+  "origin": [
+    {
+      "name": "Newport News",
+      "fullName": "Newport News/Williamsburg International (USA)",
+      "code": "JFK"
+    },
+    {
+      "name": "New Castle",
+      "fullName": "New Castle (United Kingdom)",
+      "code": "NCL"
+    },
+    {
+      "name": "New York",
+      "fullName": "New York J.F. Kennedy International (USA)",
+      "code": "NPL"
+    },
+    {
+      "name": "New Orleans",
+      "fullName": "New Orleans, Louis Armstrong New Orleans International",
+      "code": "PHF"
+    },
+	{
+      "name": "New Orleans",
+      "fullName": "New Orleans, Louis Armstrong New Orleans International",
+      "code": "VIS"
+    }
+  ],
+  "destination": [
+    {
+      "name": "Mercury",
+      "description": "Solar Space Station",
+      "code": "MER",
+      "imgPath": "img/mercury-surf.png"
+    },
+    {
+      "name": "Venus",
+      "description": "Cloud Metro Station",
+      "code": "VEN",
+      "imgPath": "img/venus-surf.png"
+    },
+    {
+      "name": "Moon",
+      "description": "Moon Space Port",
+      "code": "MOO",
+      "imgPath": "img/moon-surf.png"
+    },
+    {
+      "name": "Mars",
+      "description": "E.R Musk Space Port",
+      "code": "MAR",
+      "imgPath": "img/mars-surf.png"
+    },
+    {
+      "name": "Saturn",
+      "description": "Orbital Observatory",
+      "code": "SAP",
+      "imgPath": "img/saturn-surf.png"
+    },
+    {
+      "name": "Jupiter",
+      "description": "Europa Space Station",
+      "code": "JUP",
+      "imgPath": "img/jupiter-surf.png"
+    }
+  ],
+  "flightClass": [
+    {
+      "label": "1st Class",
+      "value": "1st",
+      "seats": "8"
+    },
+    {
+      "label": "Business Class",
+      "value": "business",
+      "seats": "30"
+    },
+    {
+      "label": "Economy Class",
+      "value": "economy",
+      "seats": "72"
+    }
+  ],
+  "travelMood": [
+    {
+      "label": "Business Travel",
+      "value": "business"
+    },
+    {
+      "label": "Do Not Disturb",
+      "value": "dnd"
+    },
+    {
+      "label": "I would like to chat during flight",
+      "value": "chat"
+    }
+  ],
+  "flights": [
+    {
+      "id": "7db1a2e0-b052-4923-b791-e5129b2b29c9",
+      "originCode": "JFK",
+      "destinationCode": "MER",
+      "departDate": "30/10/2019",
+      "startTime": "9:00 AM",
+      "endTime": "10:00 PM",
+      "durationInMin": 780,
+      "flightClass": {
+        "economy": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 52195,
+          "currency": "USD",
+          "availableSeats": 30
+        },
+        "business": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 183816,
+          "currency": "USD",
+          "availableSeats": 0
+        },
+        "1st": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 926890,
+          "currency": "USD",
+          "availableSeats": 2
+        }
+      }
+    },
+    {
+      "id": "58168012-7c07-410e-8d0a-4e1915a72e47",
+      "originCode": "JFK",
+      "destinationCode": "MER",
+      "departDate": "30/10/2019",
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM",
+      "durationInMin": 360,
+      "flightClass": {
+        "economy": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 43734,
+          "currency": "USD",
+          "availableSeats": 25
+        },
+        "business": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 610664,
+          "currency": "USD",
+          "availableSeats": 3
+        },
+        "1st": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 899351,
+          "currency": "USD",
+          "availableSeats": 0
+        }
+      }
+    }
+  ],
+  "booking": [
+    {
+      "bookingId": "1",
+      "userId": "1",
+      "flightId": "58168012-7c07-410e-8d0a-4e1915a72e47",
+      "seatAllocation": [
+        {
+          "seatNumber": "1A",
+          "flightClass": "economy",
+          "travelMood": "chat"
+        },
+        {
+          "seatNumber": "3C",
+          "flightClass": "economy",
+          "travelMood": "dnd"
+        },
+        {
+          "seatNumber": "4E",
+          "flightClass": "economy",
+          "travelMood": "business"
+        }
+      ]
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "1C"
+        },
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "1D"
+        }
+      ],
+      "flightId": "7db1a2e0-b052-4923-b791-e5129b2b29c9",
+      "id": "9ff1c494-ae8e-44c1-be37-bacc2d7bc364",
+      "userId": 1,
+      "bookingId": "72971070-fbdb-4e54-bb0f-e8401f588afe"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "dnd",
+          "flightClass": "economy",
+          "seatNumber": "3A"
+        },
+        {
+          "travelMood": "dnd",
+          "flightClass": "economy",
+          "seatNumber": "5F"
+        }
+      ],
+      "flightId": "7db1a2e0-b052-4923-b791-e5129b2b29c9",
+      "id": "634e24c0-27be-4d7c-a0b4-81b1f154135c",
+      "userId": 1,
+      "bookingId": "a4776826-db0b-43e6-ad3f-8d2d311c6c0f"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "10F"
+        }
+      ],
+      "flightId": "58168012-7c07-410e-8d0a-4e1915a72e47",
+      "id": "f552cf71-a742-462f-93f6-0903d6448852",
+      "userId": 1,
+      "bookingId": "f6004e63-6330-4960-b4b3-b2a8f3fa9133"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "business",
+          "flightClass": "1st",
+          "seatNumber": "5D"
+        }
+      ],
+      "flightId": "7db1a2e0-b052-4923-b791-e5129b2b29c9",
+      "id": "fb815c55-4fb0-4b4d-9979-c8671800c040",
+      "userId": 1,
+      "bookingId": "75fff04d-fbee-4dff-a15e-e646dc49f6f0"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "dnd",
+          "flightClass": "economy",
+          "seatNumber": "11C"
+        }
+      ],
+      "flightId": "7db1a2e0-b052-4923-b791-e5129b2b29c9",
+      "id": "d93a8d05-7771-428b-a186-b2624eddf9f1",
+      "userId": 1,
+      "bookingId": "94ea016b-a5dc-4079-8784-5d040b062589"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "11B"
+        },
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "10B"
+        }
+      ],
+      "flightId": "58168012-7c07-410e-8d0a-4e1915a72e47",
+      "id": "e7ef9ab6-58c9-4551-93df-4e5e9f4625f7",
+      "userId": 1,
+      "bookingId": "9f2d0eca-444f-4207-b580-10d9ca030f8b"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "business",
+          "flightClass": "economy",
+          "seatNumber": "6A"
+        },
+        {
+          "travelMood": "business",
+          "flightClass": "economy",
+          "seatNumber": "8F"
+        }
+      ],
+      "flightId": "7db1a2e0-b052-4923-b791-e5129b2b29c9",
+      "id": "100c2b2b-109e-494b-a9ad-1f2405656a16",
+      "userId": 1,
+      "bookingId": "f12653f8-e689-4268-8f45-ddbc0d4eed2e"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "2A"
+        },
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "2B"
+        }
+      ],
+      "flightId": "58168012-7c07-410e-8d0a-4e1915a72e47",
+      "id": "70f31ef4-3306-4717-b3da-5874a4dfff60",
+      "userId": 1,
+      "bookingId": "a209749b-e590-412f-8fa6-3b4dbeba63f9"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "12F"
+        },
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "11F"
+        }
+      ],
+      "flightId": "7db1a2e0-b052-4923-b791-e5129b2b29c9",
+      "id": "59a1ce1d-93f6-4f71-949c-9e89ef5951f9",
+      "userId": 1,
+      "bookingId": "84361c16-5a9c-4371-b8f8-0d7538c5597c"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "dnd",
+          "flightClass": "economy",
+          "seatNumber": "1B"
+        },
+        {
+          "travelMood": "dnd",
+          "flightClass": "economy",
+          "seatNumber": "4F"
+        }
+      ],
+      "flightId": "58168012-7c07-410e-8d0a-4e1915a72e47",
+      "id": "81bce16e-fae5-460d-babd-c4c13e0379d3",
+      "userId": 1,
+      "bookingId": "c59cc04e-6f9b-42e5-9249-1068327b6bbc"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "business",
+          "flightClass": "economy",
+          "seatNumber": "7A"
+        },
+        {
+          "travelMood": "business",
+          "flightClass": "economy",
+          "seatNumber": "1C"
+        }
+      ],
+      "flightId": "58168012-7c07-410e-8d0a-4e1915a72e47",
+      "id": "c5cdc461-8747-4100-bfc9-bfd76f97e392",
+      "userId": 1,
+      "bookingId": "f7e903c0-0fcd-41f7-935a-3270a914e862"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "dnd",
+          "flightClass": "economy",
+          "seatNumber": "12F"
+        },
+        {
+          "travelMood": "dnd",
+          "flightClass": "economy",
+          "seatNumber": "11D"
+        }
+      ],
+      "flightId": "58168012-7c07-410e-8d0a-4e1915a72e47",
+      "id": "a611d049-fd79-42b0-bf77-22a638cc83fa",
+      "userId": 1,
+      "bookingId": "6d8c90ed-c3c7-466e-b5cc-24ae7724f260"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "10A"
+        }
+      ],
+      "flightId": "7db1a2e0-b052-4923-b791-e5129b2b29c9",
+      "id": "dd3011ee-bcaa-40d7-903d-0cc0e38ad8c0",
+      "userId": 1,
+      "bookingId": "860c4d1a-6d27-4a28-9351-b363e3e9b9a7"
+    },
+    {
+      "seatAllocation": [
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "4A"
+        },
+        {
+          "travelMood": "chat",
+          "flightClass": "economy",
+          "seatNumber": "4B"
+        }
+      ],
+      "flightId": "7db1a2e0-b052-4923-b791-e5129b2b29c9",
+      "id": "fa71e9e1-5871-4fa9-bcd9-b0d3811e41ef",
+      "userId": 1,
+      "bookingId": "1d285df6-5473-4d2d-a740-7bc72e78d7ae"
+    }
+  ],
+  "user": [
+    {
+      "userId": "1",
+      "email": "john@publicissapient.com",
+      "password": "<<paswd>>"
+    }
+  ],
+  "availability": [
+    {
+      "date": "2019-11-01",
+      "minPrice": 2345,
+      "isSoldOut": false,
+      "originCode": "NPL",
+      "destinationCode": "SAP"
+    },
+    {
+      "date": "2019-11-02",
+      "minPrice": 7345,
+      "isSoldOut": false,
+      "originCode": "NPL",
+      "destinationCode": "SAP"
+    },
+    {
+      "date": "2019-11-03",
+      "minPrice": 2345,
+      "isSoldOut": false,
+      "originCode": "NPL",
+      "destinationCode": "SAP"
+    },
+    {
+      "date": "2019-11-04",
+      "minPrice": 8345,
+      "isSoldOut": false,
+      "originCode": "NPL",
+      "destinationCode": "SAP"
+    },
+    {
+      "date": "2019-11-05",
+      "minPrice": 5345,
+      "isSoldOut": true,
+      "originCode": "NPL",
+      "destinationCode": "SAP"
+    },
+    {
+      "date": "2019-11-06",
+      "minPrice": 2345,
+      "isSoldOut": false,
+      "originCode": "NPL",
+      "destinationCode": "SAP"
+    },
+    {
+      "date": "2019-11-07",
+      "minPrice": 1345,
+      "isSoldOut": false,
+      "originCode": "NPL",
+      "destinationCode": "SAP"
+    },
+    {
+      "date": "2019-11-12",
+      "minPrice": 6345,
+      "isSoldOut": false,
+      "originCode": "NPL",
+      "destinationCode": "SAP"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+@import 'common/css/colors.scss';
+@import 'common/css/fonts.scss';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $primary-bg-color;
+  color: $white;
+  font-family: GothamPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-title {
+  @include dsktpH2left;
+  margin: 32px 0;
+}
+
+.label {
+  @include captionwhiteleft;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.small-label {
+  @include small-captionwhite;
+  text-transform: uppercase;
+}
+
+.caption-text {
+  @include small-captionwhite;
+  text-align: center;
+  padding: 2px 8px;
+  margin: 6px;
+  border-radius: 10px;
+  background-color: var(--white);
+  color: $col-2d293b;
+}
+
+.content-container {
+  background-color: $secondary-bg-color;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 8px auto;
+}
+
+.flex-container {
+  display: flex;
+}

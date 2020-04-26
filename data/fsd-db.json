@@ -1,0 +1,165 @@
+{
+  "origin": [
+    {
+      "name": "Newport News",
+      "fullName": "Newport News/Williamsburg International (USA)",
+      "code": "JFK"
+    },
+    {
+      "name": "New Castle",
+      "fullName": "New Castle (United Kingdom)",
+      "code": "NCL"
+    },
+    {
+      "name": "New York",
+      "fullName": "New York J.F. Kennedy International (USA)",
+      "code": "NPL"
+    },
+    {
+      "name": "New Orleans",
+      "fullName": "New Orleans, Louis Armstrong New Orleans International",
+      "code": "PHF"
+    }
+  ],
+  "destination": [
+    {
+      "name": "Mercury",
+      "description": "Solar Space Station",
+      "code": "MER",
+      "imgPath": ""
+    },
+    {
+      "name": "Venus",
+      "description": "Cloud Metro Station",
+      "code": "VEN",
+      "imgPath": ""
+    },
+    {
+      "name": "Moon",
+      "description": "Moon Space Port",
+      "code": "MOO",
+      "imgPath": ""
+    },
+    {
+      "name": "Mars",
+      "description": "E.R Musk Space Port",
+      "code": "MAR",
+      "imgPath": ""
+    },
+    {
+      "name": "Saturn",
+      "description": "Orbital Observatory",
+      "code": "SAP",
+      "imgPath": ""
+    },
+    {
+      "name": "Jupiter",
+      "description": "Europa Space Station",
+      "code": "JUP",
+      "imgPath": ""
+    }
+  ],
+  "flightClass": [
+    {
+      "label": "1st Class",
+      "value": "1st"
+    },
+    {
+      "label": "Business Class",
+      "value": "business"
+    },
+    {
+      "label": "Economy Class",
+      "value": "economy"
+    }
+  ],
+  "travelMood": [
+    {
+      "label": "Business Travel",
+      "value": "business"
+    },
+    {
+      "label": "Do Not Disturb",
+      "value": "dnd"
+    },
+    {
+      "label": "I would like to chat during flight",
+      "value": "chat"
+    }
+  ],
+  "flights": [
+    {
+      "id": "7db1a2e0-b052-4923-b791-e5129b2b29c9",
+      "originCode": "NPL",
+      "destinationCode": "SAP",
+      "departDate": "30/10/2019",
+      "startTime": "9:00 AM",
+      "endTime": "10:00 PM",
+      "durationInMin": 780,
+      "flightClass": {
+        "economy": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 52195,
+          "currency": "USD"
+        },
+        "business": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 183816,
+          "currency": "USD"
+        },
+        "1st": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 926890,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "id": "58168012-7c07-410e-8d0a-4e1915a72e47",
+      "originCode": "PHF",
+      "destinationCode": "MOO",
+      "departDate": "30/10/2019",
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM",
+      "durationInMin": 360,
+      "flightClass": {
+        "economy": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 43734,
+          "currency": "USD"
+        },
+        "business": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 610664,
+          "currency": "USD"
+        },
+        "1st": {
+          "totalSeats": 24,
+          "priceInBaseUnit": 899351,
+          "currency": "USD"
+        }
+      }
+    }
+  ],
+  "booking": [
+    {
+      "bookingId": "1",
+      "userId": "1",
+      "flightId": "58168012-7c07-410e-8d0a-4e1915a72e47",
+      "seatAllocation": [
+        {
+          "seatNumber": "1",
+          "flightClass": "economy",
+          "travelMood": "chat"
+        }
+      ]
+    }
+  ],
+  "user": [
+    {
+      "userId": "1",
+      "email": "john@publicissapient.com",
+      "password": "<<paswd>>"
+    }
+  ]
+}

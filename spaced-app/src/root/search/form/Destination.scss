@@ -1,0 +1,30 @@
+.destination {
+  opacity: 0.9;
+}
+
+.destination .dest-sec {
+  padding: 24px;
+}
+
+.destination .dest-card-wrapper {
+  padding: 0 8px;
+}
+
+.destination .destination-card {
+  cursor: pointer;
+  height: 104px;
+  object-fit: contain;
+  border-radius: 6px;
+  margin: 8px auto;
+  background-color: #ec495a;
+}
+
+.destination .dest-name {
+  padding: 24px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.destination .dest-image {
+  width: 100%;
+}
